@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -113,326 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &66543261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 66543262}
-  - component: {fileID: 66543264}
-  - component: {fileID: 66543263}
-  m_Layer: 0
-  m_Name: TreeSpawner (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &66543262
+--- !u!4 &353290974 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 66543261}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.43, y: 0, z: -9.86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &66543263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 66543261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &66543264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 66543261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
---- !u!1 &248266328
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 248266329}
-  - component: {fileID: 248266331}
-  - component: {fileID: 248266330}
-  m_Layer: 0
-  m_Name: TreeSpawner (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &248266329
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 248266328}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.99, y: 0, z: -3.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &248266330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 248266328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &248266331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 248266328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
---- !u!1 &290755867
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 290755868}
-  - component: {fileID: 290755870}
-  - component: {fileID: 290755869}
-  m_Layer: 0
-  m_Name: TreeSpawner (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &290755868
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290755867}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.95, y: 0, z: 3.93}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &290755869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290755867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &290755870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290755867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
---- !u!1 &353290973
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 353290974}
-  - component: {fileID: 353290976}
-  - component: {fileID: 353290975}
-  m_Layer: 0
-  m_Name: TreeSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &353290974
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 353290973}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &353290975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 353290973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &353290976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 353290973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
---- !u!1 &671809977
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 671809978}
-  - component: {fileID: 671809980}
-  - component: {fileID: 671809979}
-  m_Layer: 0
-  m_Name: TreeSpawner (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &671809978
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 671809977}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12, y: 0, z: 1.47}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &671809979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 671809977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &671809980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 671809977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
+  m_PrefabParentObject: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1716052581}
 --- !u!1 &693568126
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,70 +199,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &938909069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 938909070}
-  - component: {fileID: 938909072}
-  - component: {fileID: 938909071}
-  m_Layer: 0
-  m_Name: TreeSpawner (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &938909070
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 938909069}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.93, y: 0, z: -1.57}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &938909071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 938909069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &938909072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 938909069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
 --- !u!1 &948014482
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +207,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 948014483}
+  - component: {fileID: 948014484}
   m_Layer: 0
   m_Name: LandscapeGeneration
   m_TagString: Untagged
@@ -604,274 +226,66 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 353290974}
-  - {fileID: 1212682689}
-  - {fileID: 290755868}
-  - {fileID: 248266329}
-  - {fileID: 938909070}
-  - {fileID: 1063043875}
-  - {fileID: 1336542632}
-  - {fileID: 66543262}
-  - {fileID: 1950323632}
-  - {fileID: 671809978}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1063043874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1063043875}
-  - component: {fileID: 1063043877}
-  - component: {fileID: 1063043876}
-  m_Layer: 0
-  m_Name: TreeSpawner (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1063043875
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1063043874}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.13, y: 0, z: -4.48}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1063043876
+--- !u!114 &948014484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1063043874}
+  m_GameObject: {fileID: 948014482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 33c8f40ac4bd2ef46b513153fd62ecc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &1063043877
-MonoBehaviour:
+  Tree: {fileID: 1606337347613842, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+  amount: 30
+  spawnBounds: {x: -20, y: 20}
+  minDistanceBetweenTrees: 0
+--- !u!1001 &1716052581
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1063043874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
---- !u!1 &1212682688
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1212682689}
-  - component: {fileID: 1212682691}
-  - component: {fileID: 1212682690}
-  m_Layer: 0
-  m_Name: TreeSpawner (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1212682689
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212682688}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.54, y: 0, z: 5.08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1212682690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212682688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &1212682691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212682688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
---- !u!1 &1336542631
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1336542632}
-  - component: {fileID: 1336542634}
-  - component: {fileID: 1336542633}
-  m_Layer: 0
-  m_Name: TreeSpawner (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1336542632
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1336542631}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.95, y: 0, z: -7.15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1336542633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1336542631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &1336542634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1336542631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
---- !u!1 &1950323631
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1950323632}
-  - component: {fileID: 1950323634}
-  - component: {fileID: 1950323633}
-  m_Layer: 0
-  m_Name: TreeSpawner (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1950323632
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1950323631}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.21, y: 0, z: -4.11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 948014483}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1950323633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1950323631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff10586221e75914c9a1afb0e6c7f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 5000
-  lengthInterval: {x: 1, y: 5}
-  xRotationInterval: {x: -90, y: 90}
-  yRotationInterval: {x: -90, y: 90}
-  branchFactorInterval: {x: 1, y: 5}
-  polarityInterval: {x: 5, y: 50}
-  lengthEnergyFactor: 100
-  rotationEnergyFactor: 1
-  branchEnergyFactor: 1
---- !u!114 &1950323634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1950323631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a45b0a1753bd040879a7591849b0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Node: {fileID: 1642413173908670, guid: a26b1b6d75f15ae4d9560952d7c15811, type: 2}
-  Branch: {fileID: 1984043542508822, guid: e1835154bfab4754f8efd625898ad98a, type: 2}
-  Empty: {fileID: 1967996237414794, guid: 71b52e31f4fda764590d34b8bd963020, type: 2}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 948014483}
+    m_Modifications:
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712882290567568, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ad3ba62f4b71f31418a1526bfe825a4f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2023294264
 GameObject:
   m_ObjectHideFlags: 0

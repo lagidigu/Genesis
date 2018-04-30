@@ -10,7 +10,7 @@ public class TreeDisplay : MonoBehaviour
 
 	public void DisplayTree(List<List<TreeNode>> layeredNodes)
 	{
-		Transform currentParent = CreateParent ("Tree", layeredNodes[0][0].position, null).transform;
+		Transform currentParent = CreateParent ("Tree", layeredNodes[0][0].position, transform).transform;
 
 		for (int i = 0; i < layeredNodes.Count; i++)
 		{

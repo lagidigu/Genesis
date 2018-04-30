@@ -21,9 +21,11 @@ public class TreeClass : MonoBehaviour
 
 	[SerializeField] float lengthEnergyFactor;
 	[SerializeField] float rotationEnergyFactor;
-	[SerializeField] float branchEnergyFactor;
+    [SerializeField] float branchEnergyFactor;
 
-	void Start()
+    [SerializeField] float maxIterations;
+
+    void Start()
 	{
 		InitVars ();
 		GenerateBaseLayer ();
@@ -54,16 +56,18 @@ public class TreeClass : MonoBehaviour
 			for (int j = 0; j < predecessors[i].branchFactor; j++)
 			{
 				TreeNode node = GenerateTreeNode (predecessors[i], GenerateLength(), GenerateXRotation(), GenerateYRotation(), GenerateBranchFactor(), GeneratePolarity());
-				if (node != null) 
+                
+                if (node != null) 
 				{
 					layer.Add (node);
 				}
 			}
 		}
 		currentGenerationLayer++;
-		if (energy > 0)
+		if (maxIterations > 0 && energy > 0)
 		{
-			GenerateLayer (layer);
+            maxIterations--;
+            GenerateLayer (layer);
 		}
 	}
 
@@ -81,7 +85,7 @@ public class TreeClass : MonoBehaviour
 	}
 	TreeNode GenerateTreeNode(TreeNode predecessor, float length, float xRotation, float yRotation, int branchFactor, float polarity)
 	{
-		float energySubstraction = GetEnergyExpenditure(length, xRotation, yRotation, branchFactor);
+        float energySubstraction = GetEnergyExpenditure(length, xRotation, yRotation, branchFactor);
 		if (energy - energySubstraction > - energyThreshold) 
 		{
 			Vector3 newPos = RotatePointAroundPivot (predecessor.position, predecessor.position + new Vector3(0, length, 0), new Vector3(xRotation, yRotation, 0));
